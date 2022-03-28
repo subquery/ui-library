@@ -1,5 +1,5 @@
 {
-  "name": "subquery-ui-library",
+  "name": "@subql/ui-library",
   "description": "SubQuery's UI Component Library",
   "version": "0.1.0",
   "repository": "git@github.com:subquery/ui-library.git",
@@ -7,8 +7,7 @@
   "scripts": {
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
-    "build-publish": "./build.sh && npm publish"
+    "build": "./build.sh && npm publish"
   },
   "dependencies": {
     "antd": "^4.18.9"
