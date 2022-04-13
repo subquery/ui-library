@@ -21,7 +21,7 @@ export const SqButton: React.FC<IProps> = ({
     {...other} 
     // className={cx({ [styles.radius]: radius })}
     >
-      {children}
+      {children}!
     </ButtonAntd>
   );
 };
