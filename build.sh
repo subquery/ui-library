@@ -2,3 +2,4 @@
 cp ./src/styles/overrides.less ./lib/overrides.less
 cp ./src/styles/variables.less ./lib/variables.less
 cp ./src/styles/main.less ./lib/main.less
+cp -R ./src/components/* ./lib/
